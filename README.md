@@ -1,4 +1,8 @@
 # Ubuntu_Config
-My configuration and software preference for [Pop!_OS](https://pop.system76.com/). Pop!_OS is a Ubuntu derivative so this should work.
+My preferred configuration and software for [Pop!_OS](https://pop.system76.com/). Pop!_OS is a Ubuntu derivative so this should work with other distros in the Ubuntu familiy.
 
-This assum
+## Configurations
+
+## Deb Packages
+
+## Flatpak Packages
