@@ -1,16 +1,14 @@
 gnome-tweaks
 dconf-editor
 synaptic
-gufw
-deja-dup
 timeshift
 syncthing
 pavucontrol
+wine
 steam
 lutris
 virt-manager
 ratbagd
-wine
 gstreamer1.0-plugins-bad-apps
 gstreamer1.0-plugins-ugly
 gstreamer1.0-libav
