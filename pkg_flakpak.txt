@@ -1,11 +1,9 @@
 de.haeckerfelix.Fragments
 io.freetubeapp.FreeTube
-org.videolan.VLC
 org.freedesktop.Piper
 com.github.Eloston.UngoogledChromium
 io.typora.Typora
 org.inkscape.Inkscape
 org.gimp.GIMP
 com.github.tchx84.Flatseal
-io.github.celluloid_player.Celluloid
 flathub com.discordapp.Discord
