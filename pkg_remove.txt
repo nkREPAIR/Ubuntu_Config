@@ -4,11 +4,9 @@ gucharmap*
 gnome-contacts*
 gnome-font-viewer
 yelp*
-gnome-power-manager
 ibus-libpinyin
 gnome-weather
 gnome-remote-desktop
 geary
 mpv
 vim*
-totem*
