@@ -5,11 +5,15 @@ sudo apt update && sudo apt upgrade -y && flatpak update -y
 sudo dpkg --add-architecture i386
 
 # Boot Optimize ===================================================================================
+# Network-dispatcher 
+# is a dispatcher daemon for systemd-networkd connection status changes.
+
+sudo apt remove --purge networkd-dispatcher -y
 
 # ModemManager
-:'
-DBus-activated daemon that controls mobile broadband (2G/3G/4G) interfaces
-'
+
+# DBus-activated daemon that controls mobile broadband (2G/3G/4G) interfaces
+
 
 # If there is no mobile broadband interface, then it is unnecessary
 sudo systemctl disable ModemManager.service
@@ -37,7 +41,7 @@ sudo systemctl stop systemd-resolved.service
 sudo systemctl disable systemd-resolved.service
 sudo systemctl mask systemd-resolved.service
 
-#
+# add dns=default to [main]
 sudo rm /etc/resolv.conf
 
 # System76 Power (Only Needed For Laptops)
@@ -59,6 +63,9 @@ General Ratio: 1:100, 2:90, 4:80, 8:60, 16:50 32, 40
 '
 sudo sysctl vm.vfs_cache_pressure=40
 
+# sysctl vm.swappiness=10
+# sysctl vm.vfs_cache_pressure=50
+# add above lines to following file:
 sudo nano /etc/sysctl.conf
 
 # Early OOM
@@ -96,4 +103,3 @@ sudo apt --purge autoremove
 sudo rm -rf ~/.cache/thumbnails/*
 sudo apt clean
 sudo apt autoclean
-
